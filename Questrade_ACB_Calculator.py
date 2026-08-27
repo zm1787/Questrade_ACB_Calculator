@@ -541,9 +541,4 @@ else:
     printLog("\n*** NO - T1135 not required ***")
     printLog("    (foreign property cost never exceeded $100,000 CAD)")
 
-printLog("\nCalculation notes:")
-printLog("- Uses your exact ACB (in CAD) after every buy/sell/dividend adjustment")
-printLog("- Checks aggregate across all foreign securities at each relevant date")
-printLog("- ACB = adjusted cost base = original cost + commissions + adjustments (no market value used)")
-printLog("- DLR, ETHQ.TO treated as Canadian -> excluded from foreign total")
-printLog("- If you add new securities later, verify foreign status manually")
+

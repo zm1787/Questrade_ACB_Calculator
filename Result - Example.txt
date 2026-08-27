@@ -5861,10 +5861,3 @@ CRA T1135 filing threshold: cost amount of specified foreign property > $100,000
 
 *** NO - T1135 not required ***
     (foreign property cost never exceeded $100,000 CAD)
-
-Calculation notes:
-- Uses your exact ACB (in CAD) after every buy/sell/dividend adjustment
-- Checks aggregate across all foreign securities at each relevant date
-- ACB = adjusted cost base = original cost + commissions + adjustments (no market value used)
-- DLR, ETHQ.TO treated as Canadian -> excluded from foreign total
-- If you add new securities later, verify foreign status manually
